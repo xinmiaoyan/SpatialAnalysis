@@ -1,0 +1,57 @@
+/risapps/rhel7/spaceranger/2.0.1/bin
+spaceranger mkfastq (spaceranger-2.0.1)
+Copyright (c) 2021 10x Genomics, Inc.  All rights reserved.
+-------------------------------------------------------------------------------
+
+Martian Runtime - v4.0.10
+Serving UI at http://cdragon410:39892?auth=ufm5C3fW0BWn7tfdmxFgfiMncUU9WkrWqB8qd8x9Qm8
+
+Running preflight checks (please wait)...
+Checking run folder...
+Checking RunInfo.xml...
+Checking system environment...
+Emitting run information...
+Checking read specification...
+Checking samplesheet specs...
+2023-05-15 17:24:35 [runtime] (ready)           ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2023-05-15 17:24:35 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET.fork0.chnk0.main
+2023-05-15 17:24:38 [runtime] (chunks_complete) ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2023-05-15 17:24:38 [runtime] (ready)           ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2023-05-15 17:24:38 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.split
+2023-05-15 17:24:38 [runtime] (split_complete)  ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2023-05-15 17:24:38 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.chnk0.main
+2023-05-15 17:30:40 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 17:36:41 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 17:42:42 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 17:48:43 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 17:54:41 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 18:00:42 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 18:06:43 [runtime] (update)          ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2023-05-15 18:06:58 [runtime] (chunks_complete) ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2023-05-15 18:06:58 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.join
+2023-05-15 18:06:58 [runtime] (join_complete)   ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2023-05-15 18:06:58 [runtime] (ready)           ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+2023-05-15 18:06:58 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.split
+2023-05-15 18:07:01 [runtime] (split_complete)  ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk0.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk1.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk2.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk3.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk4.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk5.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk6.main
+2023-05-15 18:07:01 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk7.main
+2023-05-15 18:07:04 [runtime] (chunks_complete) ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+2023-05-15 18:07:04 [runtime] (run:local)       ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.join
+2023-05-15 18:07:06 [runtime] (join_complete)   ID.BHK2N3DMXY.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+
+Outputs:
+- FASTQ output folder:   /rsrch6/home/genomic_med/lwang22_lab/Xinmiao/16_SP_TLS_jianfeng/03_result/BHK2N3DMXY/outs/fastq_path
+- Interop output folder: /rsrch6/home/genomic_med/lwang22_lab/Xinmiao/16_SP_TLS_jianfeng/03_result/BHK2N3DMXY/outs/interop_path
+- Input samplesheet:     /rsrch6/home/genomic_med/lwang22_lab/Xinmiao/16_SP_TLS_jianfeng/03_result/BHK2N3DMXY/outs/input_samplesheet.csv
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
+
+2023-05-15 18:07:12 Shutting down.
+Saving pipestance info to "BHK2N3DMXY/BHK2N3DMXY.mri.tgz"

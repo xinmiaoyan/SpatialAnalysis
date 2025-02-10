@@ -1,0 +1,80 @@
+run parameters:
+matrixPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU01/outs/filtered_feature_bc_matrix.h5
+tissuePositionPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU01/outs/spatial/tissue_positions.csv
+imgPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-01_15BX24742.tif
+outPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU01
+mainscriptsFolder=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/
+parentJobName=SpaGCN
+alphaArray=0.5-1-1.5
+betaArray=30-49-70
+pArray=0.4-0.5-0.6
+nClustersArray=6-7-8-9-10-11-12-13-14-15
+toLoad=NO
+toAdj=NO
+toDetectDomain=NO
+toDetectSVG=NO
+toCallBack=YES
+callBackPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh
+
+Job <25640194> is submitted to queue <e80short>.
+         /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/run_SpaGCN/pipeline/load.sh             --matrixPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU01/outs/filtered_feature_bc_matrix.h5             --tissuePositionPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU01/outs/spatial/tissue_positions.csv             --imgPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-01_15BX24742.tif             --outPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU01             --mainscriptsFolder /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/             --parentJobName SpaGCN             --alphaArray 0.5-1-1.5             --betaArray 30-49-70             --pArray 0.4-0.5-0.6             --nClustersArray 6-7-8-9-10-11-12-13-14-15             --toLoad NO             --toAdj NO             --toDetectDomain NO             --toDetectSVG NO             --toCallBack YES             --callBackPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh 
+run parameters:
+matrixPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU02/outs/filtered_feature_bc_matrix.h5
+tissuePositionPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU02/outs/spatial/tissue_positions.csv
+imgPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-02_16BX12829.tif
+outPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU02
+mainscriptsFolder=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/
+parentJobName=SpaGCN
+alphaArray=0.5-1-1.5
+betaArray=30-49-70
+pArray=0.4-0.5-0.6
+nClustersArray=6-7-8-9-10-11-12-13-14-15
+toLoad=NO
+toAdj=NO
+toDetectDomain=NO
+toDetectSVG=NO
+toCallBack=YES
+callBackPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh
+
+Job <25640195> is submitted to queue <e80short>.
+         /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/run_SpaGCN/pipeline/load.sh             --matrixPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU02/outs/filtered_feature_bc_matrix.h5             --tissuePositionPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU02/outs/spatial/tissue_positions.csv             --imgPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-02_16BX12829.tif             --outPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU02             --mainscriptsFolder /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/             --parentJobName SpaGCN             --alphaArray 0.5-1-1.5             --betaArray 30-49-70             --pArray 0.4-0.5-0.6             --nClustersArray 6-7-8-9-10-11-12-13-14-15             --toLoad NO             --toAdj NO             --toDetectDomain NO             --toDetectSVG NO             --toCallBack YES             --callBackPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh 
+run parameters:
+matrixPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU03/outs/filtered_feature_bc_matrix.h5
+tissuePositionPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU03/outs/spatial/tissue_positions.csv
+imgPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-03_16BX16714.tif
+outPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU03
+mainscriptsFolder=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/
+parentJobName=SpaGCN
+alphaArray=0.5-1-1.5
+betaArray=30-49-70
+pArray=0.4-0.5-0.6
+nClustersArray=6-7-8-9-10-11-12-13-14-15
+toLoad=NO
+toAdj=NO
+toDetectDomain=NO
+toDetectSVG=NO
+toCallBack=YES
+callBackPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh
+
+Job <25640196> is submitted to queue <e80short>.
+         /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/run_SpaGCN/pipeline/load.sh             --matrixPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU03/outs/filtered_feature_bc_matrix.h5             --tissuePositionPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU03/outs/spatial/tissue_positions.csv             --imgPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-03_16BX16714.tif             --outPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU03             --mainscriptsFolder /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/             --parentJobName SpaGCN             --alphaArray 0.5-1-1.5             --betaArray 30-49-70             --pArray 0.4-0.5-0.6             --nClustersArray 6-7-8-9-10-11-12-13-14-15             --toLoad NO             --toAdj NO             --toDetectDomain NO             --toDetectSVG NO             --toCallBack YES             --callBackPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh 
+run parameters:
+matrixPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU04/outs/filtered_feature_bc_matrix.h5
+tissuePositionPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU04/outs/spatial/tissue_positions.csv
+imgPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-04_16BX28164.tif
+outPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU04
+mainscriptsFolder=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/
+parentJobName=SpaGCN
+alphaArray=0.5-1-1.5
+betaArray=30-49-70
+pArray=0.4-0.5-0.6
+nClustersArray=6-7-8-9-10-11-12-13-14-15
+toLoad=NO
+toAdj=NO
+toDetectDomain=NO
+toDetectSVG=NO
+toCallBack=YES
+callBackPath=/rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh
+
+Job <25640197> is submitted to queue <e80short>.
+         /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/run_SpaGCN/pipeline/load.sh             --matrixPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU04/outs/filtered_feature_bc_matrix.h5             --tissuePositionPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/2_spaceranger_count/HKU04/outs/spatial/tissue_positions.csv             --imgPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/data/PM3131/img/HandE/HKU-04_16BX28164.tif             --outPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/result/PM3131/3_SpaGCN/HKU04             --mainscriptsFolder /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/             --parentJobName SpaGCN             --alphaArray 0.5-1-1.5             --betaArray 30-49-70             --pArray 0.4-0.5-0.6             --nClustersArray 6-7-8-9-10-11-12-13-14-15             --toLoad NO             --toAdj NO             --toDetectDomain NO             --toDetectSVG NO             --toCallBack YES             --callBackPath /rsrch3/scratch/genomic_med/ychu2/projects/project26/code/pipeline/private/PM3131/3_SpaGCN/callback.sh 
